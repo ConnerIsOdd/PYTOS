@@ -32,8 +32,8 @@ There are 3 folders in the PYTOS folder (.internal, programs, files)
 
 
   ## How to use PYTOS
-  *type the command "help" into the command/"What would you like to do?" line
-    * This should appear: 
+  * type the command "help" into the command/"What would you like to do?" line
+  * This should appear: 
 
         'help' - Displays all valid commands
         'open program' or 'open app' - Gives a list of all programs and opens program user chose
@@ -43,7 +43,7 @@ There are 3 folders in the PYTOS folder (.internal, programs, files)
   * Refer to this every time you forget a command
 
 ## Conclusion
-You are now ready to use PYTOS (more like PYT(fake)OS)
+You are now ready to use PYTOS! (more like PYT(fake)OS)
 
 If you are still having trouble:
   * Refer to the FAQ below
