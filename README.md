@@ -1,7 +1,7 @@
 # Python Text Operating System (simulation)
 Simulation of what a VERY basic python text-based operating system would look like.
 
-Can open .py and .txt files (again, VERY basic OS [but, updates coming soon...])
+Can open .py and .txt files (again, VERY basic [and fake] OS [but, updates coming soon...])
 
 Compatible with Windows only!
 # Disclaimer
@@ -22,7 +22,7 @@ Q: Do I need to make a login in the program?
 A: For now, Yes. But probably not in the next update.
 
 
-Q: Why?
+Q:  Why did you make this?
 
 A: Because I was bored and had no other ideas.
 
