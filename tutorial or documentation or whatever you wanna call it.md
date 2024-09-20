@@ -72,15 +72,8 @@ A: idfk lmao, use it as a hub for your .py and .txt files i guess lol.
 
 Q: MacOS/Linux/PieOS ports?
 
-A: When I release the .py version, Yes (i'm gatekeeping it for now cuz it does not look neat lol). For now, windows only!
+A: Maybe? You can download the "PYTOS" folder from the repo and see if it runs. I only have windows so i cannot test it.
 
 Q: Will this become an actual OS someday?
 
 A: Maybe? idk. I literally have only ONE year of python programming class under my belt lol. It could possibly happen in later years when I have more experience with computer science as a whole.
-
-  
-          
-
-
-    
-    
