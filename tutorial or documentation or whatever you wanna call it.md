@@ -1,5 +1,5 @@
 # Tutorial/Documention (idk wtf to call this)
-This is just a place to put all the info needed to download/install, setup, and install this program. 
+This is just a place to put all the info needed to download/install and setup this program. 
   ## Download/Install: 
   * Download the newest (or not newest) PYTOS release
   * Open PYTOS.exe
