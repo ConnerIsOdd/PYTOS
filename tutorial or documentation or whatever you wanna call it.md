@@ -14,13 +14,13 @@ There are 3 folders in the PYTOS folder (.internal, programs, files)
   ### programs: 
   Your .py files go here.
   
-  The "if __name__ == '__main__'" statement may not work due to the fact another program is opening it.
+  The "if __name__ == '__main__'" statement may not work because PYTOS is opening it. 
   
   So I made and used this template:
       
-                  def prgmain():
-                    Put code here
-                  prgmain()
+                  def prgmain(): # the "main" function for programs on PYTOS
+                    print("Hello, World!") # prints "Hello, World!"
+                  prgmain() # executes the prgmain function
                   
   * If using a multiple .py file program:
     * it should not change anything, the programs list will look messy though (will fix in future update)
