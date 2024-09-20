@@ -2,6 +2,7 @@
 This is just a place to put all the info needed to download/install and setup this program. 
   ## Download/Install: 
   * Download the newest (or not newest) PYTOS release
+  * Unzip PYTOS.zip
   * Open PYTOS.exe
   * Create a login
   * Boom. It is that easy, unless you wanna run/open anything other than test.py and test.txt
@@ -53,15 +54,15 @@ Q: How do I run it?
 
 A: Literally just open the .exe lol.
 
-Q: How do I import my .py and .txt files?
+Q: Do I need to keep test.py and test.txt?
 
-A: Refer to tutorial/documentation.
+A: No. Those were just placeholders to test PYTOS. You can delete them if you wanna.
 
 Q: Do I need to make a login in the program?
 
 A: For now, Yes. But probably not in the next update.
 
-Q: Why?
+Q: Why did you make this?
 
 A: Because I was bored and had no other ideas.
 
