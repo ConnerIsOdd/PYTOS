@@ -132,7 +132,7 @@ def main():
         task = input("\nWhat would you like to do? (type help for valid commands): ")
         if task == "help":
             print("\n\nValid commands:")
-            print("\n\n'help' - Displays all valid commands\n'open program' or 'open app' - Gives a list of all programs and opens program user chose\n'open file' - Gives a list of all non-program files and opens file user chose\n'power off' or 'off' - Powers off OS")
+            print("\n\n'help' - Displays all valid commands\n'open program' or 'open app' - Gives a list of all programs and opens program user chose\n'open file' - Gives a list of all non-program files and opens file user chose\n'cmd' - Opens cmd\n'power off' or 'off' - Powers off OS")
         elif task == "open program" or task == "open app":
             open_programs(prgmpath)
         elif task == "open file":
