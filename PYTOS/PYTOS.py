@@ -44,8 +44,10 @@ def open_programs(path):
     try:
         with open(path + f"\\{prgm}") as program:
             exec(program.read())
-    except:
+    except Exception as error:
         print("\n\nError: Program does not exist or cannot be indentified/opened")
+        print("\nError:")
+        print(f"\n{error}")
 
 def open_files(path):
     display_files(path)
@@ -59,6 +61,37 @@ def open_files(path):
     except:
         print("\n\nError: File does not exist or cannot be indentified/opened")
 
+def cmd(path, username):
+    exit = False
+    while exit == False:
+        cmd = input(f"\n{path.strip("programs")}|{username}> ")
+        if cmd.lower() == "test":
+            print("\ntest")
+        elif cmd.lower() == "exit":
+            exit = True
+        elif cmd.lower() == "scriptrun":
+            folder = input("\nFolder script is in: ")
+            if folder == "programs":
+                open_programs(path)
+
+            elif folder == "files":
+                display_files(path.strip("programs") + folder)
+                script = input("What file would you like to run script from? (extension included):")
+                try:
+                    with open((path.strip("programs") + folder) + f"\\{script}") as script:
+                        exec(script.read())
+                except Exception as error:
+                    print("\n\nError: script does not exist or cannot be indentified/opened/run")
+                    print("\nError:")
+                    print(f"\n{error}")
+            else:
+                print("\nInvalid location/directory")
+
+        elif cmd.lower() == "crash":
+            os.abort()
+            
+        else:
+            print("\nInvalid Command") 
 
 def main():
     try:
@@ -100,14 +133,16 @@ def main():
         if task == "help":
             print("\n\nValid commands:")
             print("\n\n'help' - Displays all valid commands\n'open program' or 'open app' - Gives a list of all programs and opens program user chose\n'open file' - Gives a list of all non-program files and opens file user chose\n'power off' or 'off' - Powers off OS")
-        if task == "open program" or task == "open app":
+        elif task == "open program" or task == "open app":
             open_programs(prgmpath)
-        if task == "open file":
+        elif task == "open file":
             open_files(filepath)
-        if task == "power off" or task == "off":
+        elif task == "power off" or task == "off":
             print("\nPowering off...")
             sleep(1)
             opened = False
+        elif task == "cmd":
+            cmd(prgmpath, username)
         else:
             print("\nInvalid command")
 
