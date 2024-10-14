@@ -19,7 +19,7 @@ A: Refer to tutorial/documentation.
 
 Q: Do I need to make a login in the program?
 
-A: For now, Yes. But probably not in the next update.
+A: For now, Yes. But probably not in a future update. For now, just make your user and password the number 0 or something.
 
 
 Q:  Why did you make this?
