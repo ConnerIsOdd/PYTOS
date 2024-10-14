@@ -42,7 +42,24 @@ There are 3 folders in the PYTOS folder (.internal, programs, files)
         'power off' or 'off' - Powers off OS"
   
   * Refer to this every time you forget a command
+## CMD
+* PYTOS versions 2.0 and above have a built in CMD script
+### CMD Commands:
+* scriptrun: Attempts to pull and run a script from a file of choice
+* crash: crashes PYTOS
+* exit: exits CMD
+More commands coming soon
 
+## How to update while still keeping login and files:
+* Get the new version of PYTOS
+* Unzip the .zip file
+* copy config.txt, the programs folder, and the files folder into the new PYTOS folder/directory
+  
+Or:
+* Get the new version of PYTOS
+* Unzip the .zip file
+* Copy PYTOS.exe and the _internal folder into old PYTOS folder/directory
+  
 ## Conclusion
 You are now ready to use PYTOS! (more like PYT(fake)OS)
 
@@ -60,7 +77,7 @@ A: No. Those were just placeholders to test PYTOS. You can delete them if you wa
 
 Q: Do I need to make a login in the program?
 
-A: For now, Yes. But probably not in the next update.
+A: For now, Yes. But probably not in a future update. For now, make your username and password the number 0 or something.
 
 Q: Why did you make this?
 
