@@ -22,7 +22,7 @@ There are 3 folders in the PYTOS folder (.internal, programs, files)
                   def prgmain(): # the "main" function for programs on PYTOS
                     print("Hello, World!") # prints "Hello, World!"
                   prgmain() # executes the prgmain function
-                  
+  * You could also just have your main code outside of a function aswell.
   * If using a multiple .py file program:
     * it should not change anything, the programs list will look messy though (will fix in future update)
     
